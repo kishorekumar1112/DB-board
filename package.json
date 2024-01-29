@@ -1,5 +1,5 @@
 {
-  "homepage": "./public/index.html 200",
+  "homepage": "./public/index.html",
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
