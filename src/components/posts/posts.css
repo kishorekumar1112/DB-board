@@ -46,3 +46,19 @@
     font-weight: bold;
     color:rgb(248, 4, 4)
   }
+
+label{
+    text-align:left ;
+    font-size: 20px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 600px){
+
+    .p-card {
+      
+      width: 80%;
+    }
+  }
