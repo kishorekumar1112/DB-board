@@ -49,11 +49,13 @@ const Posts = () => {
     <div className='post-card-container'>
       <div className=' p-card'>
         <form onSubmit={handleSubmit}>
+          <label>Title</label>
           <input
             type="text"
             value={editedTitle}
             onChange={(e) => setEditedTitle(e.target.value)}
           />
+          <label>Body</label>
           <textarea
             value={editedBody}
             onChange={(e) => setEditedBody(e.target.value)}
