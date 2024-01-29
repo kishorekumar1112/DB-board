@@ -1,0 +1,49 @@
+
+/* Navbar */
+.nav .link {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+.nav{
+    margin: 0;
+    display: flex;
+    align-items: center ;
+    justify-content:space-evenly;
+    flex-direction: row;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.label{
+    text-align: left;
+    color: white
+}
+
+.nav li{
+    border-radius: 3px;
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    width: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.nav li:hover{
+    background-color: rgb(22, 126, 245);
+    color:white;
+    transform: translate(5px);
+    font-weight: bold;
+
+} 
+
+.label span{
+    color: rgb(250, 38, 38);
+}

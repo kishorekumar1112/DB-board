@@ -1,0 +1,63 @@
+
+
+table {
+    width: 100%;
+    top:1%;
+    border-collapse: collapse; /* Ensures that the border is collapsed into a single border */
+}
+
+th, td {
+    border: 1px solid black; /* Adds border to table cells */
+    padding: 8px; /* Adds padding to table cells */
+    text-align: center; /* Aligns text to the left */
+}
+
+.user-summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px;
+    bottom: 5px;
+}
+.summary-item{
+    height: 22px;
+    padding: 25px 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+span{
+    font-weight: bold;
+}
+
+.edit{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 60px;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+.delete{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(231, 22, 33);
+    border: none;
+    padding: 5px;
+    width: 60px;
+    border-radius: 3px;
+}
+
+.delete:hover{
+    cursor: pointer;
+    transform: translate(5px, -2px);
+}
+.edit:hover{
+    cursor: pointer;
+    transform: translate(5px, -2px);
+}
